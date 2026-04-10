@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  color: whitesmoke;
+  background: #9fb696;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.navegador{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+}
+
+a{
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+nav a:hover{
+  color: darkolivegreen
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 32px;
+}
+
+.cabecalho{
+  background-color: darkolivegreen;
+  padding: 40px 40px
+}
+
+.contatos{
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.foto_telefone{
+  border-radius: 100%;
+  border: 5px solid whitesmoke;
+  max-width: 200px;
+  padding: 30px;
+}
+
+.gmail{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.endereco{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.numero{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.rodape{
+    display: flex;                
+    justify-content: center;      
+    align-items: center;         
+    gap: 10px;                    
+    height: 5vh!
+}
+
+.logoInsta{
+  border-radius: 100%;
+  border: 1px solid whitesmoke;
+  max-width: 50px;
+}
+
+.logo_github{
+  border-radius: 100%;
+  border: 1px solid whitesmoke;
+  max-width: 50px;
+}
