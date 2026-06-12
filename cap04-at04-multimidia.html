@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recursos Multimídia — Cap. 4 / Ativ. 4</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Recursos Multimídia</h1>
+    </header>
+
+    <main>
+        <figure>
+            <video
+               controls
+                width="800"
+                height="450"
+                poster="poster-aula.jpg"
+                preload="metadata">
+
+                <source src="videos/aula-html.mp4" type="video/mp4">
+                <source src="videos/aula-html.webm" type="video/webm">
+
+                <track
+                    kind="subtitles"
+                    srclang="pt"
+                    label="Português"
+                    src="legendas/aula-html.vtt"
+                    default>
+
+                Seu navegador não suporta vídeo.
+
+                <a href="videos/aula-html.mp4">Baixar vídeo</a>
+            </video>
+
+            <figcaption>
+                Aula introdutória de HTML5.
+            </figcaption>
+        </figure>
+
+        <figure>
+            <audio controls preload="metadata">
+                <source src="audios/podcast.mp3" type="audio/mpeg">
+                <source src="audios/podcast.ogg" type="audio/ogg">
+
+                Seu navegador não suporta áudio.
+
+                <a href="audios/podcast.mp3">Baixar áudio</a>
+            </audio>
+
+            <figcaption>
+                Podcast sobre desenvolvimento web —
+              <a href="transcricao.html">Ver transcrição</a>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <iframe
+                width="800"
+                height="450"
+                src="https://www.youtube-nocookie.com/embed/Ejkb_YpuHWs"
+                title="Vídeo educacional sobre HTML"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+            <figcaption>
+                Vídeo do YouTube.
+            </figcaption>
+        </figure>
+
+        <figure>
+            <picture>
+
+                <source
+                    media="(min-width: 768px)"
+                    srcset="img/banner-wide.jpg">
+
+                <img
+                    src="img/banner-mobile.jpg"
+                    alt="Banner de tecnologias web"
+                    width="800"
+                    height="450">
+            </picture>
+
+            <figcaption>
+                Banner ilustrativo sobre tecnologias web.
+            </figcaption>
+        </figure>    
+    </main>
+
+    <footer>
+        <p><a href="index.html">Clique para voltar</a></p>
+    </footer>
+
+</body>
+
+</html>
