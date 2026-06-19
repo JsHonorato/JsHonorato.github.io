@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viwerport" content="width=divice-width, initial-scale=0.1">
+  <title>Formulário de Hotel</title>
+  <link rel="stylesheet" href="form01.css">
+</head>
+
+<body>
+  <header>
+    <h1>Hotel Transilvânia</h1>
+    <h2>Faça sua hospedagem aqui!</h2>   
+  </header>
+  
+  <main>
+    <!-- Isso é uma sessão para contatos, que tal?-->
+    <section>  
+      <form action="cadastro.js" class="cadastro">      
+      <p><label for="inome">Nome:</label>
+      <input type="text" name="nome" id="inome"></p>
+      
+      <p><label for="igmail">Gmail:</label>
+      <input type="gmail" name="gmail" id="igmail"></p>
+      
+      <p><label for="itelefone">Telefone</label>
+      <input type="tel" name="telefone" id="itelefone"></p>
+          
+          <p><label for="quarto">
+                        Tipo de Quartos
+                    </label>
+
+                    <input
+                        type="select"
+                        id="quarto"
+                        name="quarto"
+                        list="quartos"></p>
+
+                    <datalist id="quartos">
+
+                        <option value="Quarto Padrão">
+                        <option value="Suíte de Luxo">
+                        </datalist>
+                            
+                            <p><label for="pagamento">
+                        Forma de Pagamento
+                    </label>
+
+                    <input
+                        type="select"
+                        id="pagamento"
+                        name="pagamento"
+                        list="pagamentos"></p>
+
+                    <datalist id="pagamentos">
+
+                        <option value="Dinheiro">
+                        <option value="Pix">
+                            <option value="Cartão De Crédito">
+                        </datalist>                  
+                            
+      <input type="submit" value="Enviar" class="botao">
+     </form>    
+    </section>
+  </main>
+  
+  <footer>
+  <h3>Contato</h3>
+  <p>📞 (82) 99999-9999</p>
+  <p>📧 contato@hoteltransilvania.com</p>
+  <p>📍 Rua XXX, 666 - Transilvânia</p>
+  <p>&copy; 2026 Hotel Transilvânia</p>
+
+  </footer>
+</body>
+</html>
