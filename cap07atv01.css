@@ -1,0 +1,169 @@
+/*=====================================================================
+   atv01.css — ARQUIVO DE TRABALHO DA ATIVIDADE
+   ---------------------------------------------------------------------
+   Este CSS é funcional, porém deliberadamente básico:
+     - usa apenas seletores de tipo, de classe e de id;
+     - expressa TODAS as medidas em pixels (px);
+     - contém repetição de regras.
+   Sua tarefa é refatorá-lo conforme o enunciado, sem alterar o HTML.
+   ===================================================================== */
+
+/* ---------- Base ---------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  background-color: #f5f5f5;
+}
+
+/* ---------- Cabeçalho ---------- */
+.cabecalho {
+  background-color: #1565c0;
+  padding: 1.5rem;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.subtitulo {
+  color: #bbdefb;
+  font-size: 0.5rem;
+}
+
+/* ---------- Menu de navegação ---------- */
+.menu > ul {
+  list-style: none;
+  margin: 0;
+  
+}
+
+.menu ul > li {
+  display: inline-block;
+  padding-right: 0.5rem;
+}
+
+.menu a {
+  color: #ffffff;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+/* ---------- Seções ---------- */
+.secao {
+  padding: 1rem;
+  max-width: 70%;
+}
+
+h2 {
+  color: #1565c0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: #0d47a1;
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.75rem;
+  line-height: 24px;
+}
+
+.destaque {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #b71c1c;
+}
+
+/* ---------- Grade de trilhas ---------- */
+.cartao {
+  display: inline-block;
+  width: 40%;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  padding: 0.8rem;
+  margin: 0.5rem;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #b71c1c;
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.botao:hover {
+    background-color: #263238;
+}
+
+
+/* ---------- Lista de programação ---------- */
+.lista-dias {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin: 2rem;
+}
+
+.lista-dias > li {
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+/* ---------- Formulário ---------- */
+.formulario {
+  max-width: 80%;
+}
+
+.formulario label {
+  display: block;
+  font-size: 1em;
+  margin-top: 1rem;
+}
+
+.formulario label::after{
+  content: '*';
+  color: #b71c1c;
+}
+
+input, textarea{
+  display: block;
+  width: 120%;
+  font-size: 1rem;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #999999;
+}
+
+input[type = "password"]{
+    border-left: 4px solid #b71c1c;
+
+}
+
+
+button {
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #1565c0;
+  padding: 0.5rem 1rem;
+  margin-top: 16px;
+  border: none;
+}
+
+/* ---------- Rodapé ---------- */
+.rodape {
+  background-color: #263238;
+  color: #cfd8dc;
+  padding: 1.8rem;
+  font-size: 1.5rem;
+}
+
