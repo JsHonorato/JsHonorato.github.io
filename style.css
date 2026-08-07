@@ -80,6 +80,19 @@ aside a:hover{
     color: darkolivegreen
 }
 
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr td{
+    background-color: darkolivegreen;
+}
+
+td a{
+    font-size: 1em;
+}
+
 .logoInsta{
   border-radius: 100%;
   border: 1px solid whitesmoke;
