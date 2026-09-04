@@ -58,33 +58,34 @@ aside a{
   color: darkolivegreen;
 }
 
-.capitulo h2 {
-  padding-bottom: 16px; 
+nav{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin: 8px;
+  gap: 0;
+  text-align: center;
+  border: 1px solid black;
+  justify-content: center;
 }
 
-.capitulo a{
-  background-color: lightgray;
-  color: black;
-  padding: 8px;
+.titulo{
+  background-color: darkolivegreen;
+  border: none;
 }
 
-nav {
-  margin-left: 32px;
-  margin-top: 16px;
+nav p, nav a{
+  padding: 12px;
+  border: 1px solid black
 }
 
-nav ul {
-  list-style-type: none;
-}
-
-nav h4{
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-nav a {
+nav a{
   color: darkolivegreen;
+  font-size: 20px;
   text-decoration: none;
+}
+
+nav a:hover{
+  color: black;
 }
 
 .center{
