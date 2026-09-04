@@ -1,0 +1,99 @@
+/* color tema
+   #ededed
+   #7ca145
+*/
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Sans-Serif;
+  background-color: #ededed;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 32px;
+  margin-top: 16px;
+}
+
+.cabecalho{
+  background-color: darkolivegreen;
+  padding: 40px 40px
+}
+
+.apresentacao_nome{
+  padding: 60px;
+}
+
+.cabecalho img{
+  max-width: 200px;
+  border: 5px solid whitesmoke;
+  border-radius: 100%;
+}
+
+.space {
+  margin-left: 32px;
+  margin-top: 16px;
+}
+
+.lista_curso {
+  padding-left: 32px;
+}
+
+article aside{
+  font-size: 0.8em;
+  padding-top: 4px;
+}
+
+article aside::after{
+  content: "[link]";
+}
+
+aside a{
+  color: darkolivegreen;
+}
+
+.capitulo h2 {
+  padding-bottom: 16px; 
+}
+
+.capitulo a{
+  background-color: lightgray;
+  color: black;
+  padding: 8px;
+}
+
+nav {
+  margin-left: 32px;
+  margin-top: 16px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav h4{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+nav a {
+  color: darkolivegreen;
+  text-decoration: none;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem{
+  max-width: 50px;
+  border-radius: 100%;
+}
