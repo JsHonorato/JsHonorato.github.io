@@ -1,6 +1,6 @@
 /* ============================================================
    TEMA 3 — EDITORIAL (claro, sério, com fonte serifada)
-   Para usar: salve este arquivo como  estilo.css  no seu projeto.
+   Para usar: salve este arquivo como estilo.css no seu projeto.
    Você pode mudar CORES, FONTE e BORDAS aqui.
    NÃO mexa na seção "LAYOUT (GRID)" — é o layout pedido na atividade.
    ============================================================ */
@@ -36,7 +36,7 @@ body {
   grid-template-areas:
     "cabecalho cabecalho"
     "principal lateral"
-    "rodape    rodape";
+    "rodape rodape";
   gap: 24px;
   max-width: 1000px;
   margin: 0 auto;
@@ -45,8 +45,8 @@ body {
 
 .cabecalho { grid-area: cabecalho; }
 .principal { grid-area: principal; }
-.lateral   { grid-area: lateral; }
-.rodape    { grid-area: rodape; }
+.lateral { grid-area: lateral; }
+.rodape { grid-area: rodape; }
 
 .projetos {
   display: grid;
@@ -99,12 +99,21 @@ h2 { color: var(--cor-escura); margin-top: 0; border-bottom: 1px solid var(--bor
 }
 
 .projeto h4 {
-  margin-bottom: 8px;;
+  margin-bottom: 8px;
   border-bottom: 2px solid var(--borda);
   color: var(--suave)
 }
 
-.projeto a{display: block; padding: 2px; color: var(--cor); text-decoration: none;}
+.projeto a {
+    display: none;
+    padding: 2px;
+    color: var(--cor);
+    text-decoration: none;
+}
+
+.projeto h4:hover{text-decoration: underline}
+.projeto h4:focus ~ a{display: block}
+
 .projeto a:hover{text-decoration: underline}
 
 .projeto h3 { margin: 0 0 6px; color: var(--cor); }
